@@ -5,4 +5,4 @@ Input a single file like wordpress.sql, the script uses .find() to remove tags b
 Modify the following variables to use this script:\
     • inFile, outFile, removedFile, notRemovedFile\
     • stringToFind\
-    • htmlElement1, htmlElement2 (unless searching both and only script and img tags)
+    • htmlElement1, htmlElement2 (unless searching for both and only script and img tags)
