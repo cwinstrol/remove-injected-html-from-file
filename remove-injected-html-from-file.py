@@ -8,8 +8,6 @@ stringToFind = 'maliciouswebsite.com'
 htmlElement1 = '<script'
 htmlElement2 = '<img' #To revise this script for one HTML element type remove this line and references to element #2 below. To revise this script for three HTML elements, add references to element #3 below.
 
-#######################################
-
 with open(inFile, encoding='utf-8', mode='r') as inF, open(outFile, encoding='utf-8', mode='w') as outF, open(removedFile, encoding='utf-8', mode='w') as removedF, open(notRemovedFile, encoding='utf-8', mode='w') as notRemovedF:
  readlines = inF.readlines()
  lineCount = 0
