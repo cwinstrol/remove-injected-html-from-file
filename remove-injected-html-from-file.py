@@ -1,7 +1,7 @@
 inFile = 'pathToInFile'
 outFile = 'pathToOutFile' #Name a file path to write output. Python will create this file for you if not already created.
 removedFile = 'pathToRemovedFile' #Name a file path to write removed elements. Python will create this file for you if not already created.
-notRemovedFile = 'pathToNotRemovedFile' #Name a file path to write elements NOT removed, used to check  Python will create this file for you if not already created.
+notRemovedFile = 'pathToNotRemovedFile' #Name a file path to write elements not removed (those which do not contain stringToFind). Python will create this file for you if not already created.
 
 stringToFind = 'maliciouswebsite.com'
 
